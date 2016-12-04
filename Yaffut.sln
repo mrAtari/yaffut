@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Yaffut", "Yaffut\Yaffut.vcxproj", "{AF116DB9-6E83-4F6E-889A-FF2D5B153B58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllTest", "DllTest\DllTest.vcxproj", "{B230E934-5D77-472C-BC08-3A2AFCED5216}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YaDllRunner", "YaDllRunner\YaDllRunner.vcxproj", "{007532B5-6C51-43B5-80E2-1A952A95D4E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1836E1AE-D5E5-4537-A37E-527353BD3A44}"
+	ProjectSection(SolutionItems) = preProject
+		Instructions.txt = Instructions.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF116DB9-6E83-4F6E-889A-FF2D5B153B58}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF116DB9-6E83-4F6E-889A-FF2D5B153B58}.Debug|Win32.Build.0 = Debug|Win32
+		{AF116DB9-6E83-4F6E-889A-FF2D5B153B58}.Release|Win32.ActiveCfg = Release|Win32
+		{AF116DB9-6E83-4F6E-889A-FF2D5B153B58}.Release|Win32.Build.0 = Release|Win32
+		{B230E934-5D77-472C-BC08-3A2AFCED5216}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B230E934-5D77-472C-BC08-3A2AFCED5216}.Debug|Win32.Build.0 = Debug|Win32
+		{B230E934-5D77-472C-BC08-3A2AFCED5216}.Release|Win32.ActiveCfg = Release|Win32
+		{B230E934-5D77-472C-BC08-3A2AFCED5216}.Release|Win32.Build.0 = Release|Win32
+		{007532B5-6C51-43B5-80E2-1A952A95D4E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{007532B5-6C51-43B5-80E2-1A952A95D4E2}.Debug|Win32.Build.0 = Debug|Win32
+		{007532B5-6C51-43B5-80E2-1A952A95D4E2}.Release|Win32.ActiveCfg = Release|Win32
+		{007532B5-6C51-43B5-80E2-1A952A95D4E2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

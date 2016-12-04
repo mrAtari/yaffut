@@ -1,0 +1,10 @@
+
+This solution contains:
+- Yaffut (Yet another framework for unit testing). One File: yaffut.h
+- DllTest: Example WindowsDll Project, containing some simple tests
+- YaDllRunner: Console Application, which loads Dlls and executes Yaffut tests inside
+
+
+Enabled SEH exceptions: so that e.g. acces violations in tested code, can be trapped
+
+Usage: YaDllRunner.exe MyTests.dll -> Loads a dll, containing yaffut tests and executes them
