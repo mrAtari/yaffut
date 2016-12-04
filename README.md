@@ -9,21 +9,19 @@ The only file you need is yaffut.h
 
 FEATURES
 
--automatic test class registration.
-
--add test by adding single source file (*.cpp), no editing any other
+- Automatic test class registration.
+- Add test by adding single source file (*.cpp), no editing any other
  files, everything is contained within a single test class derivative.
-
--no macro support required aside from __FILE__ and __LINE__ which are
+- No macro support required aside from __FILE__ and __LINE__ which are
  wrapped into a macro called __AT__ which produces a string literal.
--support for simple test cases, where a test function is sufficient
-
--support for test fixtures which group cases, and allow to encapsulate
+- Support for simple test cases, where a test function is sufficient
+- Support for parameterizeable test fixtures which group cases, and allow to encapsulate
  the commonality between the cases.
--fixture specialisation by parametrisation.
--different reporters may be injected by client user(e.g. for different development environments or CI systems)
--macros may be adapted to different testing frameworks (e.g. google test)
--works perfectly together with hippomocks mocking framework
+- Different reporters may be injected by client user(e.g. for different development environments or CI systems)
+- Macros may be adapted to different testing frameworks (e.g. google test). See published macros section
+- Works perfectly together with hippomocks mocking framework
+- On Windows systems there's a dll testrunner provided (see YaDllRunner)
+- Yaffut testrunner has simple parametrization options provided: you may run tests by name, number and common name
 
 RUNNING
 
@@ -32,6 +30,7 @@ Add a call to yaffut Factory in your main: yaffut::Factory::Instance().Main(argc
 
 EXAMPLES
 
+```
 TEST(yaffut_simple_checks)
 {
   EQUAL ("Yaffut", "Yaf" "fut");
@@ -39,7 +38,7 @@ TEST(yaffut_simple_checks)
   CHECK (true);
   ASSERT_THROW (FAIL ("this should fail"), yaffut::failure);
 }
-
+```
 See yaffut_Tests.cpp for complete feature self test.
 
 PREREQUISITES
