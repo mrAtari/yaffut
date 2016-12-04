@@ -43,5 +43,5 @@ See yaffut_Tests.cpp for complete feature self test.
 
 PREREQUISITES
 
-To compile, yaffut requires a standards conforming compiler and the
+To compile, yaffut requires a standards conforming compiler (C++98 is enough), exception support and the
 standard library.  Yaffut is platform independent and works on windows and unix/linux platforms.
